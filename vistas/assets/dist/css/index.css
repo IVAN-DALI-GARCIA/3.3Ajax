@@ -1,0 +1,84 @@
+.menu_lateral{
+    position: relative;
+}
+
+.nav_profile{
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+}
+
+.oscurecer{    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1800;
+    display: none;
+    background: rgba(0, 0, 0, 0.741) ;
+
+}
+.aviso{
+    border: 4px solid #f571ea;
+    width: 40%;
+    padding: 0;
+    background: white;
+    border-radius: 2rem;
+    padding-left: 25px; 
+    padding-right: 25px;  
+    position: fixed;
+    top: 150px;
+    left: 30%;
+    z-index: 1900;
+    overflow: hidden;
+    display: none;
+}
+.cake{
+    margin: 0%;
+    padding: 0%;
+    width: 35%;
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%; 
+    display: block;   
+}
+.aviso h1{
+    display: block;
+    width: 100%;
+    font-size: 150%;
+    text-align: center;
+    font-weight: bold;
+}
+.btn3 {
+  background-color: #f571ea;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+  border-radius: 12px;
+  border: 4px solid #366473;
+  padding: 7px 100px;
+  outline: none;
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+  transition: 0.025px;
+  font-size: 20px;  
+  margin-bottom: 10px;
+}
+.btn3 a{
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    margin-left: 8px;
+}
+.btn3 i{
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;    
+}
